@@ -1,0 +1,18 @@
+import './header.css';
+
+const Header = () => {
+    return(
+        <div className="header">
+            <div className='headerTitles'>
+               <span className='headerTitleSm'>React & Node</span> 
+               <span className='headerTitleLg'>Blog</span> 
+            </div>
+            <img className='headerImg'
+                 src="https://cdn.akamai.steamstatic.com/steam/apps/374320/capsule_616x353.jpg?t=1644436409"
+                 alt=""
+            />
+        </div>
+    )
+}
+
+export default Header;

@@ -1,6 +1,6 @@
 import './topbar.css';
 
-export default function TopBa() {
+const TopBar = () => {
     return(
         <div className="top">
             <div className='topLeft'>
@@ -10,7 +10,7 @@ export default function TopBa() {
                 <i className="topIcon fa-brands fa-square-instagram"></i>
             </div>
             <div className='topCenter'>
-                <ul className='toplist'>
+                <ul className='topList'>
                     <li className='topListItem'>Home</li>
                     <li className='topListItem'>About</li>
                     <li className='topListItem'>Contact</li>
@@ -18,8 +18,16 @@ export default function TopBa() {
                     <li className='topListItem'>LogOut</li>
                 </ul>
             </div>
-            <div className='topRight'>topRight</div>
+            <div className='topRight'>
+                <img
+                    className='topImg'
+                    src="https://static.bandainamcoent.eu/high/dark-souls/dark-souls-hd/00-page-setup/ds-hd_game_thumb_408x314.jpg"
+                    alt=""
+                />
+                <i className="topSearchIcon fas fa-search"></i>
+            </div>
         </div>
     )
 }
 
+export default TopBar;
