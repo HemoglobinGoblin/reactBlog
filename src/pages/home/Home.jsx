@@ -1,6 +1,6 @@
 import './home.css'
 import Header from '../../header/Header.jsx'
-import Posts from '../../post/Post';
+import Posts from '../../posts/Posts';
 import Sidebar from '../../sidebar/Sidebar';
 
 const Home = () => {
